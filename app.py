@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     """Отдаёт главную HTML-страницу."""
-    return render_template('index.html')
+    return render_template('https://balanroman1306-oss.github.io/index.html')
 
 @app.route('/generate', methods=['POST'])
 def generate():
